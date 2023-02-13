@@ -23,7 +23,7 @@ function ItemListContainer(props) {
         {catalog.map(product=> <div key={product.id} className='card'>
                             
                                 <div className='card-body'> 
-                                    <img src="../public/images/imageplaceholder.png" alt="placeholder" />
+                                    <img src="/images/imageplaceholder.png" alt="placeholder" />
                                 </div>
                                 <div className='card-header'>
                                     {product.name}
