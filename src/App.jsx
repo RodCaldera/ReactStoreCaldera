@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import reactLogo from './assets/react.svg'
 import './App.css'
 import NavBar from './components/NavBar/NavBar.jsx'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx'
